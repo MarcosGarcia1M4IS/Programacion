@@ -1,0 +1,27 @@
+package real;
+
+public class Name {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 String[][] productos = {
+	                {"Manzanas", "C$5"},
+	                {"Pera", "C$5"},
+	                {"Chiltoma", "C$5"},
+	                {"Papa", "C$5"},
+	                {"Papaya", "C$5"},
+	                {"Sandía", "C$5"},
+	                {"Melocoton", "C$5"},
+	                {"Pitaya", "C$5"},
+	                {"Piña", "C$5"},
+	                {"Tomates", "C$5"}
+	        };
+	        
+	        for (String[] producto : productos) {
+	            System.out.printf("| %-15s | %-12s |\n", producto[0], producto[1]);
+	        }
+	
+	}
+
+}
